@@ -6,12 +6,11 @@ export default function Contact() {
   return (
     <>
       <Navbar />
-      <main className="container mx-auto px-4 py-16">
-        <h1 className="text-4xl font-bold text-center">Contact Me</h1>
+      <section className="py-20 bg-gradient-to-b from-purple-600 to-pink-500">
+        <h1 className="text-4xl font-bold text-center text-white mb-8">Contact Me</h1>
         <ContactForm />
-      </main>
+      </section>
       <Footer />
     </>
   );
 }
-
